@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/frontend/" />
+  <Folder Name="/src/">
+    <Project Path="src/FieldOps.Api/FieldOps.Api.csproj" Id="3da88bd9-132e-40dc-bec1-c98a92d61290" />
+    <Project Path="src/FieldOps.Application/FieldOps.Application.csproj" Id="5707fdbc-9fe5-4fcd-b2f2-bc49bc2fb3ef" />
+    <Project Path="src/FieldOps.Domain/FieldOps.Domain.csproj" Id="c2413702-24f0-4192-a249-6721250dfecc" />
+    <Project Path="src/FieldOps.Infrastructure/FieldOps.Infrastructure.csproj" Id="dfd0e822-390f-4d1c-bd8e-d78f13d6d3e1" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
