@@ -1,0 +1,15 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: fieldops-sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "StandardDeveloper"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?Password required}
+    ports:
+      - "127.0.0.1:1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+volumes:
+  sqlserver_data:
